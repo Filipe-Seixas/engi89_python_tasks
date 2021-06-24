@@ -1,17 +1,17 @@
 from datetime import datetime, date
 
-# # define the variables age and name
-# age = input("Please enter your age:  ")
-# name = input("Please enter your name:  ")
-# # make a calculation for the year in which the person was born
-# year_of_birth = 2021 - int(age)  # This isn't exact due to not accounting for months
-# # print out "OMG <person>, you are <age> years old so you were born in <year>" with the correct values
-# print(f"OMG {name}, you are {age} years old so you were born in {year_of_birth}")
-#
-# # --- Second Part --- #
-#
-# # prompt the user for input and re-assign the variable age and name
-# age = input("Please enter your age:  ")
+# define the variables age and name
+age = input("Please enter your age:  ")
+name = input("Please enter your name:  ")
+# make a calculation for the year in which the person was born
+year_of_birth = 2021 - int(age)  # This isn't exact due to not accounting for months
+# print out "OMG <person>, you are <age> years old so you were born in <year>" with the correct values
+print(f"OMG {name}, you are {age} years old so you were born in {year_of_birth}")
+
+# --- Second Part --- #
+
+# prompt the user for input and re-assign the variable age and name
+age = input("Please enter your age:  ")
 name = input("Please enter your name:  ")
 # figure out a way to account for if the persons birthday has already happened this year or not
 
@@ -41,5 +41,5 @@ print(f"Hello, {name.capitalize()}. You are {age} years old.")
 # Extra
 # go look into the library time
 # print out the amount of hour this person has lived
-hours = age * int(8760) # how many hours in a year
+hours = age * int(8760)  # how many hours in a year
 print(f"You are {hours} hours old")
